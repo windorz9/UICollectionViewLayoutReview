@@ -16,6 +16,7 @@
 		265009462339B025005888C8 /* FSPagerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 265009452339B025005888C8 /* FSPagerControl.m */; };
 		2650094C233B0D5D005888C8 /* FSPagerCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2650094B233B0D5D005888C8 /* FSPagerCollectionView.m */; };
 		2650094F233B4088005888C8 /* FSPagerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2650094E233B4088005888C8 /* FSPagerViewCell.m */; };
+		26500952233C2EDB005888C8 /* FSPagerViewLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 26500951233C2EDB005888C8 /* FSPagerViewLayoutAttributes.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		2650094B233B0D5D005888C8 /* FSPagerCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPagerCollectionView.m; sourceTree = "<group>"; };
 		2650094D233B4088005888C8 /* FSPagerViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPagerViewCell.h; sourceTree = "<group>"; };
 		2650094E233B4088005888C8 /* FSPagerViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPagerViewCell.m; sourceTree = "<group>"; };
+		26500950233C2EDB005888C8 /* FSPagerViewLayoutAttributes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPagerViewLayoutAttributes.h; sourceTree = "<group>"; };
+		26500951233C2EDB005888C8 /* FSPagerViewLayoutAttributes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPagerViewLayoutAttributes.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				2650094B233B0D5D005888C8 /* FSPagerCollectionView.m */,
 				2650094D233B4088005888C8 /* FSPagerViewCell.h */,
 				2650094E233B4088005888C8 /* FSPagerViewCell.m */,
+				26500950233C2EDB005888C8 /* FSPagerViewLayoutAttributes.h */,
+				26500951233C2EDB005888C8 /* FSPagerViewLayoutAttributes.m */,
 			);
 			path = "FSPagerView-OBJC";
 			sourceTree = "<group>";
@@ -170,6 +175,7 @@
 				2650093D2339AFA2005888C8 /* main.m in Sources */,
 				2650092F2339AFA2005888C8 /* AppDelegate.m in Sources */,
 				2650094F233B4088005888C8 /* FSPagerViewCell.m in Sources */,
+				26500952233C2EDB005888C8 /* FSPagerViewLayoutAttributes.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
