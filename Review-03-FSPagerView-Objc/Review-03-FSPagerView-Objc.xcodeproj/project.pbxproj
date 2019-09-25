@@ -14,6 +14,7 @@
 		2650093A2339AFA2005888C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265009382339AFA2005888C8 /* LaunchScreen.storyboard */; };
 		2650093D2339AFA2005888C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2650093C2339AFA2005888C8 /* main.m */; };
 		265009462339B025005888C8 /* FSPagerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 265009452339B025005888C8 /* FSPagerControl.m */; };
+		2650094C233B0D5D005888C8 /* FSPagerCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2650094B233B0D5D005888C8 /* FSPagerCollectionView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		2650093C2339AFA2005888C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		265009442339B025005888C8 /* FSPagerControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPagerControl.h; sourceTree = "<group>"; };
 		265009452339B025005888C8 /* FSPagerControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPagerControl.m; sourceTree = "<group>"; };
+		2650094A233B0D5D005888C8 /* FSPagerCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPagerCollectionView.h; sourceTree = "<group>"; };
+		2650094B233B0D5D005888C8 /* FSPagerCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPagerCollectionView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 			children = (
 				265009442339B025005888C8 /* FSPagerControl.h */,
 				265009452339B025005888C8 /* FSPagerControl.m */,
+				2650094A233B0D5D005888C8 /* FSPagerCollectionView.h */,
+				2650094B233B0D5D005888C8 /* FSPagerCollectionView.m */,
 			);
 			path = "FSPagerView-OBJC";
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2650094C233B0D5D005888C8 /* FSPagerCollectionView.m in Sources */,
 				265009462339B025005888C8 /* FSPagerControl.m in Sources */,
 				265009322339AFA2005888C8 /* ViewController.m in Sources */,
 				2650093D2339AFA2005888C8 /* main.m in Sources */,
