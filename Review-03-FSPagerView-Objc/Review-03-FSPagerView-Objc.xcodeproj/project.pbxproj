@@ -15,6 +15,7 @@
 		2650093D2339AFA2005888C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2650093C2339AFA2005888C8 /* main.m */; };
 		265009462339B025005888C8 /* FSPagerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 265009452339B025005888C8 /* FSPagerControl.m */; };
 		2650094C233B0D5D005888C8 /* FSPagerCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2650094B233B0D5D005888C8 /* FSPagerCollectionView.m */; };
+		2650094F233B4088005888C8 /* FSPagerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2650094E233B4088005888C8 /* FSPagerViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		265009452339B025005888C8 /* FSPagerControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPagerControl.m; sourceTree = "<group>"; };
 		2650094A233B0D5D005888C8 /* FSPagerCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPagerCollectionView.h; sourceTree = "<group>"; };
 		2650094B233B0D5D005888C8 /* FSPagerCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPagerCollectionView.m; sourceTree = "<group>"; };
+		2650094D233B4088005888C8 /* FSPagerViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSPagerViewCell.h; sourceTree = "<group>"; };
+		2650094E233B4088005888C8 /* FSPagerViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSPagerViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				265009452339B025005888C8 /* FSPagerControl.m */,
 				2650094A233B0D5D005888C8 /* FSPagerCollectionView.h */,
 				2650094B233B0D5D005888C8 /* FSPagerCollectionView.m */,
+				2650094D233B4088005888C8 /* FSPagerViewCell.h */,
+				2650094E233B4088005888C8 /* FSPagerViewCell.m */,
 			);
 			path = "FSPagerView-OBJC";
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 				265009322339AFA2005888C8 /* ViewController.m in Sources */,
 				2650093D2339AFA2005888C8 /* main.m in Sources */,
 				2650092F2339AFA2005888C8 /* AppDelegate.m in Sources */,
+				2650094F233B4088005888C8 /* FSPagerViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
